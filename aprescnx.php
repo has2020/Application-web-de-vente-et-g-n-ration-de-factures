@@ -11,7 +11,7 @@ if (!isset($_SESSION['email'])) {
 $_SESSION['p1'] = 0;$_SESSION['p2'] = 0;$_SESSION['p3'] = 0;$_SESSION['p4'] = 0;$_SESSION['p5'] = 0;$_SESSION['p6'] = 0;$_SESSION['p7'] = 0;$_SESSION['p8'] = 0;
 
 
-		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','naroto10',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 		  $req2 = $bdd->prepare('SELECT * from client where email = ?');
  		  $req2->execute(array($_SESSION['email']));
  		  $donneesclient=$req2->fetch();
