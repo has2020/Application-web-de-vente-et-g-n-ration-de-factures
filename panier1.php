@@ -65,7 +65,7 @@
 		  echo    ' Vous venez d ajouter ' .  $_POST['quantite'] . ' du produit ' .  $_GET['nom'] .' au panier' ;
 		  echo    "<p> Retour à la page d'acceuil dans 3 secondes...Veuillez patienter ";
 			
-		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','naroto10',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 		 
 		  $req1 = $bdd->prepare('SELECT * from produit where Codeproduit = ?');
 		  $req1->execute(array($_GET['nom']));
