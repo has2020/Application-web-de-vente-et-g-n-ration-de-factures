@@ -1,0 +1,125 @@
+.body
+{
+		height: 900px;
+		background-image: url("blanc.png");
+		opacity:1;
+		}
+.maclasse
+{
+	    border: 3px black solid;
+		border-radius: 20px / 10px;
+		box-shadow: 6px 6px 10px black;
+		text-shadow: 6px 6px 10px black;
+		text-align: justify;
+
+		height: 200px;
+		background-image: url("matinfo.png") ;
+		opacity:0.5;
+}
+
+.titre
+{
+
+	font-size: 5em;
+ 	font-family: "Arial Black" ,Arial;
+	font-weight: bold;
+	position: relative;
+	color : red;
+	opacity:1;
+
+}
+
+.maclasse2
+{
+		border: 3px red solid;
+		
+		box-shadow: 6px 6px 10px black;
+		text-shadow: 6px 6px 10px black;
+		text-align: justify;
+}
+
+.image
+{
+	height:100px;
+	background-image: url("giphy.gif");
+	width(30)
+}
+.flottant
+{
+		float:left;
+}
+.sam1
+{
+		text-decoration: underline;
+}
+
+.new
+{
+		border: 3px green solid;
+		border-radius: 20px / 10px;
+		color:#FFFFFF;
+		text-align: center;
+		background-color: green;
+		text-decoration-color: black;
+}
+.old
+{
+		border: 3px red solid;
+		border-radius: 20px / 10px;
+		color:#FFFFFF;
+		text-align: center;
+		background-color: red;
+		text-decoration-color: black;
+}
+
+.tfact
+{
+		font-family: "Trebuchet MS";
+		font-size: 4em;
+		text-align: center;
+}
+
+h1 + div
+{	
+	font-family: "Trebuchet MS";
+	text-align: center;
+	font-size: 2em;
+}
+
+.bord
+{
+		text-align: center;
+		text-decoration-line: underline;
+}
+
+.oldnew
+{
+		border: 3px grey solid;
+		border-radius: 20px / 10px;
+		color:#FFFFFF;
+		text-align: center;
+		background-color:rgb(224, 224, 235);
+		text-decoration-color: black;		
+		font-size:3em;
+}
+
+.informat
+{
+	color: black;
+}
+.titre1
+{
+
+	font-size: 4em;
+ 	font-family: "Arial Black" ,Arial;
+	font-weight: bold;
+	position: relative;
+	color : red;
+	opacity:1;
+
+}
+.body3
+{
+		background-image:url(imarticle/acer3.jpg);
+}
+
