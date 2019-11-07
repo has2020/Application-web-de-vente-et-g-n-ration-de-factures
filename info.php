@@ -45,7 +45,7 @@ if (($_SESSION['nom']) && ($_SESSION['email']))
 				<div class="row ">
 					<article class ="col-md-2 textfinal"> <h1> </h1></article><strong>
 						<?php
-							$bdd = new PDO('mysql:host=localhost;dbname=projet','root','naroto10',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+							$bdd = new PDO('mysql:host=localhost;dbname=projet','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 		 
 		 				 $req123 = $bdd->prepare('SELECT * from client where Email = ?');
 		  				 $req123->execute(array($_SESSION['email']));
