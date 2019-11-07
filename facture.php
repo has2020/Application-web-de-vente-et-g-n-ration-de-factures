@@ -8,7 +8,7 @@ if (!isset($_SESSION['email'])) {
 ?>
 <?php 
  $total=0;
- 		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','naroto10',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+ 		  $bdd = new PDO('mysql:host=localhost;dbname=projet','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
  		  $r1 = $bdd->prepare('SELECT * from facturer where Numfact = ?');
 		  $r1->execute(array($_SESSION['facture']));
  while($cursorp=$r1->fetch())
